@@ -4,7 +4,7 @@ import './Home.css';
 
 
 
-function Redir() {
+function Home() {
     return (
         <div className='flexbox'>
             <div className='outerbox'>
@@ -28,5 +28,5 @@ function Redir() {
 
 
 
-export default Redir;
+export default Home;
 

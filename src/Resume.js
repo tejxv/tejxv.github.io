@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Redir() {
+function Resume() {
     return (
         <div className='pdfContainer'>
         this is outside
@@ -13,5 +13,5 @@ function Redir() {
 
 
 
-export default Redir;
+export default Resume;
 
