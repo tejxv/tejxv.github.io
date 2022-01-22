@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter as Router, Route, Switch} from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Redir from "./Redir"
 import Home from "./Home"
 import Resume from "./Resume"
