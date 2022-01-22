@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import { HashRouter as Router, Route, Switch} from "react-router-dom";
 import Redir from "./Redir"
 import Home from "./Home"
 import Resume from "./Resume"
@@ -9,8 +9,8 @@ function App() {
     <Router>
       <Switch>
       <Route exact path="/" component={Home} />
-        <Route exact path="/m" component={Redir} />
-        <Route exact path="/resume" component={Resume} />
+      <Route exact path="/m" component={Redir} />
+      <Route exact path="/resume" component={Resume} />
       </Switch>
     </Router>
   );
