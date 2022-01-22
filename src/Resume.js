@@ -3,10 +3,10 @@ import React from 'react';
 
 function Resume() {
     return (
-        <div className='pdfContainer'>
-        this is outside
-        <iframe title="Resume" src="Resume - Tejas Upadhyay.pdf" width="100%" height="100%">
-    </iframe>
+        <div className='flexbox'>
+            <div className='outerbox'><iframe title="Resume" src="Resume - Tejas Upadhyay.pdf" height="100%" width="100%" frameborder="0">
+    </iframe></div>
+        
         </div>
     )
 }
