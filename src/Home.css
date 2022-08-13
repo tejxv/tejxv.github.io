@@ -24,7 +24,7 @@
   margin: 0;
   padding: 0.7em;
   border-radius: 10px;
-  border: 2px solid #ffffff73;
+  border: 4px solid #ffffff73;
   background-color: #ffffff6e;
   backdrop-filter: blur(100px) saturate(2.8);
 }
@@ -48,7 +48,7 @@
   font-size: 0.4em;
   font-weight: 400;
   text-decoration: none;
-  padding-bottom: 1px;
+  padding-bottom: 4px;
   color: black;
   position: relative;
 }
@@ -56,13 +56,13 @@
 .topLinks a::after {
   content: "";
   position: absolute;
-  height: 2px;
+  height: 4px;
   width: 100%;
   left: 0;
   bottom: 0;
   opacity: 0;
   transform: translateY(3px);
-  background: black;
+  background: #ffffffab;
   transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
